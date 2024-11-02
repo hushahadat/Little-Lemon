@@ -5,12 +5,14 @@ import MenuItem from "@/components/MenuItem";
 // import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import MenuSectionList from "@/components/MenuSectionList";
+import LoginScreen from "@/components/LoginScreen";
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
+        {/* <LoginScreen /> */}
         <WelcomeScreen />
         {/* <MenuSectionList /> */}
       </View>
