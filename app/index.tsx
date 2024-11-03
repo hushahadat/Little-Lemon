@@ -12,8 +12,8 @@ export default function App() {
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
-        <LoginScreen />
-        {/* <WelcomeScreen /> */}
+        {/* <LoginScreen /> */}
+        <WelcomeScreen />
         {/* <MenuSectionList /> */}
       </View>
       <View style={styles.footerContainer}>
